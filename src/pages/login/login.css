@@ -1,0 +1,58 @@
+/* login.css */
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .loginForm {
+    width: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputItems {
+    margin-bottom: 20px;
+  }
+  
+  .email,
+  .password {
+    position: relative;
+  }
+  
+  input[type='text'],
+  input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .showPassword {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1877f2; /* Facebook blue */
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #166fe5; /* Darker shade of Facebook blue */
+  }
+  
